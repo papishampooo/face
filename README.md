@@ -14,13 +14,11 @@
 
   <hr>
   
-  [![Commit activity](https://img.shields.io/github/commit-activity/t/Gourieff/sd-webui-reactor/main?cacheSeconds=0)](https://github.com/Gourieff/sd-webui-reactor/commits/main)
-  ![Last commit](https://img.shields.io/github/last-commit/Gourieff/sd-webui-reactor/main?cacheSeconds=0)
-  [![Opened issues](https://img.shields.io/github/issues/Gourieff/sd-webui-reactor?color=red)](https://github.com/Gourieff/sd-webui-reactor/issues?cacheSeconds=0)
-  [![Closed issues](https://img.shields.io/github/issues-closed/Gourieff/sd-webui-reactor?color=green&cacheSeconds=0)](https://github.com/Gourieff/sd-webui-reactor/issues?q=is%3Aissue+is%3Aclosed)
-  ![License](https://img.shields.io/github/license/Gourieff/sd-webui-reactor)
+  ![Last commit](https://img.shields.io/gitea/last-commit/Gourieff/sd-webui-reactor/main?gitea_url=https%3A%2F%2Fcodeberg.org&cacheSeconds=0)
+  [![Opened issues](https://img.shields.io/gitea/issues/Gourieff/sd-webui-reactor?gitea_url=https%3A%2F%2Fcodeberg.org&color=red&cacheSeconds=0)](https://codeberg.org/Gourieff/sd-webui-reactor/issues)
+  [![Closed issues](https://img.shields.io/gitea/issues-closed/Gourieff/sd-webui-reactor?gitea_url=https%3A%2F%2Fcodeberg.org&color=green&cacheSeconds=0)](https://codeberg.org/Gourieff/sd-webui-reactor/issues?q=is%3Aissue+is%3Aclosed)
 
-  English | [Русский](/README_RU.md)
+  English | [Русский](README_RU.md)
 
 # ReActor for Stable Diffusion
 
@@ -84,7 +82,7 @@ __Don't forget to enable ReActor and set any source (to prevent "no source" erro
 
 ### 0.6.1 <sub><sup>BETA3
 
-- 'Force Upscale' option inside the 'Upscale' tab: ReActor will run the Upscaler even if there's no face is detected (FR https://github.com/Gourieff/sd-webui-reactor/issues/116)
+- 'Force Upscale' option inside the 'Upscale' tab: ReActor will run the Upscaler even if there's no face is detected
 - ReActor shows filenames of source images in-process when the multiple images mode or the folder mode (random as well) is selected
 
 ### 0.6.1 <sub><sup>BETA2
@@ -127,7 +125,7 @@ __Don't forget to enable ReActor and set any source (to prevent "no source" erro
   - OR only **VS C++ Build Tools** (if you don't need the whole Visual Studio) and select "Desktop Development with C++" under "Workloads -> Desktop & Mobile":
   https://visualstudio.microsoft.com/visual-cpp-build-tools/
   - OR if you don't want to install VS or VS C++ BT - follow [this steps (sec. VIII)](#insightfacebuild)
-2. In web-ui, go to the "Extensions" tab, load "Available" extensions and type "ReActor" in the search field or use this URL `https://github.com/Gourieff/sd-webui-reactor` in the "Install from URL" tab - and click "Install"
+2. In web-ui, go to the "Extensions" tab, load "Available" extensions and type "ReActor" in the search field or use this URL `https://codeberg.org/Gourieff/sd-webui-reactor` in the "Install from URL" tab - and click "Install"
 3. Please, wait for several minutes until the installation process will be finished (be patient, don't interrupt the process)
 4. Check the last message in your SD-WebUI Console:
 * If you see the message "--- PLEASE, RESTART the Server! ---" - so, do it, stop the Server (CTRL+C or CMD+C) and start it again - or just go to the "Installed" tab, click "Apply and restart UI" 
@@ -140,7 +138,7 @@ __Don't forget to enable ReActor and set any source (to prevent "no source" erro
 2. (For Windows Users) See the [1st step](#a1111) for Automatic1111 (if you followed [this steps (sec. VIII)](#insightfacebuild) instead - go to the Step 5)
 3. Go to (Windows)`automatic\venv\Scripts` or (MacOS/Linux)`automatic/venv/bin`, run Terminal or Console (cmd) for that folder and type `activate`
 4. Run `pip install insightface==0.7.3`
-5. Run SD.Next, go to the "Extensions" tab and use this URL `https://github.com/Gourieff/sd-webui-reactor` in the "Install from URL" tab and click "Install"
+5. Run SD.Next, go to the "Extensions" tab and use this URL `https://codeberg.org/Gourieff/sd-webui-reactor` in the "Install from URL" tab and click "Install"
 6. Please, wait for several minutes until the installation process will be finished (be patient, don't interrupt the process)
 7. Check the last message in your SD.Next Console:
 * If you see the message "--- PLEASE, RESTART the Server! ---" - stop the Server (CTRL+C or CMD+C) or just close your console
@@ -149,7 +147,7 @@ __Don't forget to enable ReActor and set any source (to prevent "no source" erro
 
 <a name="colab">If you use [Cagliostro Colab UI](https://github.com/Linaqruf/sd-notebook-collection):
 
-1. In active WebUI, go to the "Extensions" tab, load "Available" extensions and type "ReActor" in the search field or use this URL `https://github.com/Gourieff/sd-webui-reactor` in the "Install from URL" tab - and click "Install"
+1. In active WebUI, go to the "Extensions" tab, load "Available" extensions and type "ReActor" in the search field or use this URL `https://codeberg.org/Gourieff/sd-webui-reactor` in the "Install from URL" tab - and click "Install"
 2. Please, wait for several minutes until the installation process will be finished (be patient, don't interrupt the process)
 3. When you see the message "--- PLEASE, RESTART the Server! ---" (in your Colab Notebook Start UI section "Start Cagliostro Colab UI") - just go to the "Installed" tab and click "Apply and restart UI"
 4. Enjoy!
@@ -169,8 +167,8 @@ __Don't forget to enable ReActor and set any source (to prevent "no source" erro
 - **Fast performance** even with CPU, ReActor for SD WebUI is absolutely not picky about how powerful your GPU is
 - **CUDA** acceleration support since version 0.5.0
 - **[API](/API.md) support**: both SD WebUI built-in and external (via POST/GET requests)
-- **ComfyUI [support](https://github.com/Gourieff/comfyui-reactor-node)**
-- **Mac M1/M2 [support](https://github.com/Gourieff/sd-webui-reactor/issues/42)**
+- **ComfyUI [support](https://codeberg.org/Gourieff/comfyui-reactor-node)**
+- **Mac M1/M2 support**
 - Console **log level control**
 - **NSFW filter free** (this extension is aimed at highly developed intellectual people, not at perverts; our society must be oriented on its way towards the highest standards, not the lowest - this is the essence of development and evolution; so, my position is - that mature-minded people are clever enough to understand for themselves what is good and what is bad and take full responsibility for personal actions; for others - no "filters" will help until they do understand how Universe works)
 
@@ -244,8 +242,6 @@ Please, check the path where "inswapper_128.onnx" model is stored. It must be in
 
 ### **II. Any problems with installing Insightface or other dependencies**
 
-(for Mac M1/M2 users) If you get errors when trying to install Insightface - please read https://github.com/Gourieff/sd-webui-reactor/issues/42
-
 (for Windows Users) If you have VS C++ Build Tools or MS VS 2022 installed but still have a problem, then try the next step:
 1. Close (stop) your SD WebUI Server and start it again
    
@@ -270,10 +266,6 @@ First of all - you need to disable any other Roop-based extensions:
 - Go to 'Extensions -> Installed' tab and uncheck any Roop-based extensions except this one
   <img src="https://github.com/Gourieff/Assets/raw/main/sd-webui-reactor/roop-off.png?raw=true" alt="uncompatible-with-other-roop"/>
 - Click 'Apply and restart UI'
-
-Alternative solutions: 
-- https://github.com/Gourieff/sd-webui-reactor/issues/3#issuecomment-1615919243
-- https://github.com/Gourieff/sd-webui-reactor/issues/39#issuecomment-1666559134 (can be actual, if you use Vladmandic SD.Next)
 
 ### **IV. "AttributeError: 'FaceSwapScript' object has no attribute 'enable'"**
 
@@ -334,11 +326,7 @@ Inside the folder `extensions\sd-webui-reactor` run Terminal or Console (cmd) an
 
 OR
 
-Just delete the folder `sd-webui-reactor` inside the `extensions` directory and then run Terminal or Console (cmd) and type `git clone https://github.com/Gourieff/sd-webui-reactor`
-
-### **X. StabilityMatrix Issues**
-
-If you encounter any issues with installing this extension in the StabilityMatrix package manager - read here how to solve: https://github.com/Gourieff/sd-webui-reactor/issues/129#issuecomment-1768210875
+Just delete the folder `sd-webui-reactor` inside the `extensions` directory and then run Terminal or Console (cmd) and type `git clone https://codeberg.org/Gourieff/sd-webui-reactor`
 
 ## Updating
 
@@ -347,7 +335,7 @@ A good and quick way to check for Extensions updates: https://github.com/Gourief
 ## ComfyUI
 
 You can use ReActor with ComfyUI.<br>
-For the installation instruction follow the [ReActor Node repo](https://github.com/Gourieff/comfyui-reactor-node)
+For the installation instruction follow the [ReActor Node repo](https://codeberg.org/Gourieff/comfyui-reactor-node)
 
 ## Disclaimer
 
