@@ -5,12 +5,14 @@
   ![Version](https://img.shields.io/badge/версия-0.7.1_beta2-green?style=for-the-badge&labelColor=darkgreen)
   
   <a href="https://boosty.to/artgourieff" target="_blank">
-    <img src="https://lovemet.ru/www/boosty.jpg" width="108" alt="Поддержать проект на Boosty"/>
+    <img src="https://lovemet.ru/img/boosty.jpg" width="108" alt="Поддержать проект на Boosty"/>
     <br>
     <sup>
       Поддержать проект
     </sup>
   </a>
+
+  <a href="https://t.me/reactor_faceswap" target="_blank"><img src="https://img.shields.io/badge/Official_Channel-2CA5E0?style=for-the-badge&logo=Telegram&logoColor=white&labelColor=blue"></img></a>
   
   <hr>
   
