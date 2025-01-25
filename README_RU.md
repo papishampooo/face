@@ -15,8 +15,8 @@
   <hr>
   
   ![Last commit](https://img.shields.io/gitea/last-commit/Gourieff/sd-webui-reactor/main?gitea_url=https%3A%2F%2Fcodeberg.org&cacheSeconds=0)
-  [![Opened issues](https://img.shields.io/gitea/issues/Gourieff/sd-webui-reactor?gitea_url=https%3A%2F%2Fcodeberg.org&color=red&cacheSeconds=0)](https://codeberg.org/Gourieff/sd-webui-reactor/issues)
-  [![Closed issues](https://img.shields.io/gitea/issues-closed/Gourieff/sd-webui-reactor?gitea_url=https%3A%2F%2Fcodeberg.org&color=green&cacheSeconds=0)](https://codeberg.org/Gourieff/sd-webui-reactor/issues?q=is%3Aissue+is%3Aclosed)
+  [![Opened issues](https://img.shields.io/gitea/issues/open/Gourieff/sd-webui-reactor?gitea_url=https%3A%2F%2Fcodeberg.org&color=red&cacheSeconds=0)](https://codeberg.org/Gourieff/sd-webui-reactor/issues)
+  [![Closed issues](https://img.shields.io/gitea/issues/closed/Gourieff/sd-webui-reactor?gitea_url=https%3A%2F%2Fcodeberg.org&color=green&cacheSeconds=0)](https://codeberg.org/Gourieff/sd-webui-reactor/issues?q=is%3Aissue+is%3Aclosed)
 
   [English](README.md) | Русский
 
